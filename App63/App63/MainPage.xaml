@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="App63.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:App63"
+    >
+    <Grid>
+        <WebView x:Name="MyWebView" Source="https://player.vimeo.com/video/356883569" />
+        <Button
+            Clicked="Button_Clicked"
+            Text="Click"
+            VerticalOptions="End"
+            />
+    </Grid>
+
+
+</ContentPage>
